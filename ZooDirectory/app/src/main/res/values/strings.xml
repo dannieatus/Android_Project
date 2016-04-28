@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ZOO Directory</string>
+    <string name="zoo_information">Welcome to SCU Zoo! \nWe are located in 500 El Camino Real, Santa clara, California. We have more than 10000 types of animals, all of them are happy!\nIf you have any questions, please contact us: </string>
+    <string name="pig">A pig is any of the animals in the genus Sus, within the Suidae family of even-toed ungulates. Pigs include the domestic pig and its ancestor, the common Eurasian wild boar, along with other species.</string>
+    <string name="fish">A fish is any member of a paraphyletic group of organisms that consist of all gill-bearing aquatic craniate animals that lack limbs with digits.</string>
+    <string name="owl">Owls are birds from the order Strigiformes, which includes about 200 species of mostly solitary and nocturnal birds of prey typified by an upright stance, a large, broad head.</string>
+    <string name="turtle">Turtles are reptiles of the order Testudines characterised by a special bony or cartilaginous shell developed from their ribs and acting as a shield. "Turtle" may refer to the order as a whole or to fresh-water and sea-dwelling testudines.</string>
+    <string name="tiger">The tiger is the largest cat species, reaching a total body length of up to 3.38 m over curves and exceptionally weighing up to 388.7 kg in the wild.</string>
+    <string name="tel">888-888-8888</string>
+
+</resources>

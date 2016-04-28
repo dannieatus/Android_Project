@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:paddingTop="3dp"
+    android:paddingBottom="3dp"
+    android:paddingLeft="10dp">
+
+    <TextView
+        android:id="@+id/nameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price: $"
+        android:id="@+id/dollar"
+        android:layout_below="@+id/nameLabel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="false"/>
+
+    <TextView
+        android:id="@+id/pricelabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price"
+        android:layout_below="@+id/nameLabel"
+        android:layout_toRightOf="@+id/dollar"
+        android:layout_toEndOf="@+id/dollar"/>
+
+    <Space
+        android:layout_width="20dp"
+        android:layout_height="20px"
+        android:layout_below="@+id/nameLabel"
+        android:id="@+id/space"
+        android:layout_toRightOf="@+id/pricelabel"
+        android:layout_toEndOf="@+id/pricelabel" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Count: "
+        android:id="@+id/X"
+        android:layout_below="@+id/nameLabel"
+        android:layout_toRightOf="@+id/space"
+        android:layout_toEndOf="@+id/space"/>
+
+    <TextView
+        android:id="@+id/countlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Count"
+        android:layout_below="@+id/nameLabel"
+        android:layout_toRightOf="@+id/X"
+        android:layout_toEndOf="@+id/X"/>
+
+</RelativeLayout>

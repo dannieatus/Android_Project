@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_editlist"
+        android:orderInCategory="120"
+        android:title="Edit List"/>
+
+    <item
+        android:id="@+id/action_exportlist"
+        android:orderInCategory="120"
+        android:title="Export List"/>
+
+    <item
+        android:id="@+id/action_addreminder"
+        android:orderInCategory="130"
+        android:title="Add Reminder"/>
+
+    <item
+        android:id="@+id/action_dellist"
+        android:orderInCategory="160"
+        android:title="Delete List"/>
+
+</menu>

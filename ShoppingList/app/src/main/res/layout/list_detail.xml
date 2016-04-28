@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/scrollojt"
+    android:fillViewport="true" >
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:scrollIndicators="right">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="180dp"
+                android:layout_height="45dp"
+                android:text="To Buy List"
+                android:paddingLeft="40dp"
+                android:paddingTop="15dp"
+                android:textStyle="bold"
+                android:background="@drawable/item_devider"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"/>
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/listView1"
+                android:layout_below="@+id/textView"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="180dp"
+                android:layout_height="45dp"
+                android:text="Have Bought"
+                android:paddingLeft="40dp"
+                android:paddingTop="15dp"
+                android:textStyle="bold"
+                android:background="@drawable/item_devider"
+                android:layout_below="@+id/listView1"
+                android:layout_marginTop="20dp"/>
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/listView2"
+                android:layout_below="@+id/textView3"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Item"
+            android:id="@+id/additembutton"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/colorPrimary"
+            android:width="150dp"
+            android:height="50dp"
+            android:textColor="@color/textColorPrimary"/>
+    </RelativeLayout>
+</ScrollView>
